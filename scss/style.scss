@@ -1,0 +1,198 @@
+@import "normalize";
+
+body {
+    position: absolute;
+    height: 872px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #023A15;
+    border-radius: 0px;
+}
+.header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 19px;
+   
+    &__logo {
+        width: 95px;
+        height: 35px;
+    }
+    &-menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+        flex-grow: 1;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        &__list {
+            padding-right: 30px;
+            a {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: none;
+    background-color: #fff;
+    padding: 13px 31px 14px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+    margin-left: 9px;
+    cursor: pointer;
+    image-resolution: ();
+}
+.main {
+    height: 775px;
+    padding-top: 223px;
+    box-sizing: border-box;
+    h2_1 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 101.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h2_2 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 150.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h2_3 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 200.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h2_4 {
+        position: absolute;
+        height: 110px;
+        left: 130.58px;
+        top: 200.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #F09C96;
+    }
+    h2_5 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: 44.91%;
+        top: 250.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h1 {
+        position: none;
+        height: 1px;
+        top: 230.5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3px;
+        line-height: 3px;
+        color: #ffffff;
+    }
+    h3_1 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 101.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h3_2 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 150.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h3_3 {
+        position: absolute;
+        height: 110px;
+        left: 0%;
+        right: -8.85%;
+        top: 200.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    h3_4 {
+        position: absolute;
+        height: 110px;
+        left: 130.58px;
+        top: 200.5px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        color: #F09C96;
+    }
+}
+.bot__wrapper {
+    position: absolute;
+    left: 0.4%;
+    right: 0.4%;
+    top: 250px;
+    bottom: 0.33%;
+    opacity: 0.63;
+    border: 4px solid #F09C96;
+}
+.page {
+    &-white {
+        position: absolute;
+        height: 531px;
+        left: 58.56%;
+        right: 11.27%;
+        top: 217px;
+        background: url(../img/Rectanglegirl.png);
+        border-radius: 0px;
+    }
+}
